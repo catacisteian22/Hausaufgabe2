@@ -14,10 +14,9 @@ public class Benutzer {
         this.lastName = lastName;
     }
 
-    public Benutzer() {
+    public Benutzer() {}
 
-    }
-
+    //Getters und Setters
     public String getFirstName() {
         return firstName;
     }
@@ -34,6 +33,7 @@ public class Benutzer {
         this.lastName = lastName;
     }
 
+    //Methode, die die totale Zeit aller Sporte berechnet
     public double kalkuliereZeit() {
         double time = 0;
         for (Sport i : sport){
@@ -42,12 +42,14 @@ public class Benutzer {
         return time;
     }
 
+    //Methode, die die Zeit fur einen SPort kalkuliert
     public double kalkuliereZeit(Sport sport) {
         return sport.kalkuliereZeit();
     }
 
+    //die Average der Sporte aus der Liste
     public double Durchschnitt() {
-        double average = kalkuliereZeit() / sport.size();
-        return average;
+        double durchschnitt = kalkuliereZeit() / sport.size();
+        return durchschnitt;
     }
 }

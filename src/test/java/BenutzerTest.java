@@ -8,11 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BenutzerTest {
 
     @Test
-    public void testTotalTimeSport(){
-        Benutzer benutzer = new Benutzer();
+    public void testTotalTimeSport(){                 //testet was das gesamte Zeit fur die gegebene
+        Benutzer benutzer = new Benutzer();           //Sporte ist
 
         Fussball fussball = new Fussball();
-        Basketball basketball = new Basketball();
         Hindernislauf hinder = new Hindernislauf();
         Hochsprung hoch = new Hochsprung();
 
@@ -27,7 +26,7 @@ public class BenutzerTest {
     }
 
     @Test
-    public void testTimeOneSport() {
+    public void testTimeOneSport() {                     //testet das Zeit gebraucht fur einen Sport
         Benutzer benutzer = new Benutzer();
 
         Fussball fussball = new Fussball();
@@ -46,8 +45,8 @@ public class BenutzerTest {
     }
 
     @Test
-    public void testAverageTimeSport() {
-        Benutzer benutzer = new Benutzer();
+    public void testAverageTimeSport() {               //testet(in dieser Fall) die Durchschnittzeit
+        Benutzer benutzer = new Benutzer();            //fur alle Sporte
 
         Fussball fussball = new Fussball();
         Basketball basketball = new Basketball();

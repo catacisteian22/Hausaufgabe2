@@ -3,8 +3,8 @@ package main.java;
 public class Main {
     public static void main(String[] args) {
         Benutzer benutzer = new Benutzer();
-        benutzer.setFirstName("Catalina");
-        benutzer.setLastName("Cisteian");
+        benutzer.setFirstName("James");
+        benutzer.setLastName("Ward");
 
         Fussball fussball = new Fussball();
         Basketball basketball = new Basketball();
@@ -16,9 +16,9 @@ public class Main {
         double sportTime = benutzer.kalkuliereZeit(benutzer.sport.get(benutzer.sport.indexOf(basketball)));
         double averageTime = benutzer.Durchschnitt();
 
-        System.out.println("User firstname is: " + benutzer.getFirstName() + "; User lastname is: " + benutzer.getLastName());
-        System.out.println("User total time sport: " + totalTime);
-        System.out.println("User one sport time: " + sportTime);
-        System.out.println("User average time sport: " + averageTime);
+        System.out.println("Vorname des Benutzers ist: " + benutzer.getFirstName() + " und Nachname ist: " + benutzer.getLastName());
+        System.out.println("Benutzers totale Zeit fur alle Sporte: " + totalTime);
+        System.out.println("Zeit fur eine Sportart: " + sportTime);
+        System.out.println("DUrchschnitt der Sporte aus der Liste: " + averageTime);
     }
 }
