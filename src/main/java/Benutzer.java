@@ -42,7 +42,7 @@ public class Benutzer {
         return time;
     }
 
-    //Methode, die die Zeit fur einen SPort kalkuliert
+    //Methode, die die Zeit fur einen Sport kalkuliert
     public double kalkuliereZeit(Sport sport) {
         return sport.kalkuliereZeit();
     }
