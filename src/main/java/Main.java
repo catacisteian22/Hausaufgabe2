@@ -19,6 +19,6 @@ public class Main {
         System.out.println("Vorname des Benutzers ist: " + benutzer.getFirstName() + " und Nachname ist: " + benutzer.getLastName());
         System.out.println("Benutzers totale Zeit fur alle Sporte: " + totalTime);
         System.out.println("Zeit fur eine Sportart: " + sportTime);
-        System.out.println("DUrchschnitt der Sporte aus der Liste: " + averageTime);
+        System.out.println("Durchschnitt der Sporte aus der Liste: " + averageTime);
     }
 }
