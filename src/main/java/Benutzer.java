@@ -3,6 +3,9 @@ package main.java;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Die Klasse Benutzer enthalt die Methoden die der Zeit fur die Sporte fur den Benutzer berechnen.
+ */
 public class Benutzer {
 
     String firstName;
