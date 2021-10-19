@@ -49,7 +49,6 @@ public class Benutzer {
 
     //die Average der Sporte aus der Liste
     public double Durchschnitt() {
-        double durchschnitt = kalkuliereZeit() / sport.size();
-        return durchschnitt;
+        return kalkuliereZeit() / sport.size();
     }
 }
