@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BenutzerTest {
 
     @Test
-    public void totalTimeSportT(){                 /*testet was das gesamte Zeit fur die gegebene
+    public void totalTimeSport(){                 /*testet was das gesamte Zeit fur die gegebene
                                                       Sporte ist*/
         Benutzer benutzer = new Benutzer();
 
