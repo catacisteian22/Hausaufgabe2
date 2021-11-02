@@ -1,6 +1,6 @@
 package main.java;
 
-/**
+/*
  * Die Main Klasse ist die Klasse, wo man einen Objekt Benutzer erstellt und die Methoden auf
  * diesen Objekt probiert. Was hier zu schauen ist, ist nicht genug fur die Prufung der Qualitat
  * der Kode, darum muss man diese Methoden auch in eine spezielle Klasse fur Teste testen.

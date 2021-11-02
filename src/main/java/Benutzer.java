@@ -38,11 +38,11 @@ public class Benutzer {
 
     //Methode, die die totale Zeit aller Sporte berechnet
     public double kalkuliereZeit() {
-        double time = 0;
-        for (Sport i : sport){
-            time += i.kalkuliereZeit();
+        double i = 0;
+        for (Sport j : sport){
+            i += j.kalkuliereZeit();
         }
-        return time;
+        return i;
     }
 
     //Methode, die die Zeit fur einen Sport kalkuliert
